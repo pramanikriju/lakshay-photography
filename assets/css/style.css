@@ -26,6 +26,7 @@ html {
 
 body {
   margin: 0;
+  background-color: black;    
 }
 
 article,
@@ -285,7 +286,7 @@ iframe {
 h1, h2,
 h3, h4,
 h5, h6 {
-  color: #212121;
+  color: white;
   font-weight: 400;
   letter-spacing: normal;
   line-height: 1.3;
@@ -305,6 +306,7 @@ h1 {
 
 h2 {
   font-size: 2.1em;
+    
 }
 
 h3 {
@@ -503,7 +505,7 @@ img {
 }
 
 .wrapper {
-  background-color: #FFFFFF;
+  background-color: black;
 }
 
 .boxed .wrapper {
@@ -512,7 +514,7 @@ img {
 }
 
 .section {
-  background-color: #FFFFFF;
+  background-color: black;
   margin-bottom: 60px;
   overflow-x: hidden;
 }
@@ -530,10 +532,11 @@ img {
 }
 
 .section-title {
-  font-size: 1.15em;
-  font-weight: 700;
+  font-size: 3.15em;
+  font-weight: 800;
   margin-bottom: 10px;
   text-transform: uppercase;
+      
 }
 .section-title span {
   color: #ffb300;
@@ -889,9 +892,9 @@ img {
 }
 .page-header .page-title {
   font-size: 2em;
-  text-transform: uppercase;
+  
   letter-spacing: .1em;
-  margin-bottom: 3px;
+  margin-bottom: 0px;
 }
 .page-header .breadcrumb-trail {
   padding-top: 7px;
@@ -1124,6 +1127,7 @@ img {
 
 .main-content {
   margin-bottom: 15px;
+    background-color: black;
    
 }
 
@@ -1368,7 +1372,7 @@ img {
 .site-logo {
   display: inline-block;
   margin-bottom: 0px;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .header {
