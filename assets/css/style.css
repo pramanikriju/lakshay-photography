@@ -363,7 +363,7 @@ img {
 }
 
 .btn-group {
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .btn-group p {
   margin-bottom: 10px;
@@ -1368,6 +1368,7 @@ img {
 .site-logo {
   display: inline-block;
   margin-bottom: 0px;
+    margin-top: 50px;
 }
 
 .header {
