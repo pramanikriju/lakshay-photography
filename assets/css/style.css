@@ -250,8 +250,8 @@ html, body {
 }
 
 body {
-  color: #727272;
-    font-family: "Conv_TypoGraphica";
+  color: black;
+    font-family: sans-serif;
   font-size: 1em;
   font-weight: 300;
   line-height: 1.58;
@@ -1452,6 +1452,7 @@ img {
 .intro-section .intro-title {
   font-size: 2em;
   font-weight: 300;
+    font-family: "Conv_TypoGraphica";
   
 }
 
