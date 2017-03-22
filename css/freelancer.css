@@ -541,3 +541,12 @@ carousel quote*/
     background-color: #4c4c4c;
     color: whitesmoke;
 }
+.fonto{
+        font-family: 'Conv_TypoGraphica';
+        src: url('fonts/TypoGraphica.eot');
+        src: local('☺'), url('fonts/TypoGraphica.woff') format('woff'), url('fonts/TypoGraphica.ttf') format('truetype'), url('fonts/TypoGraphica.svg') format('svg'); 
+        font-weight: normal;
+        font-style: normal;
+    }
+
+}
