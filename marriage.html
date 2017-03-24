@@ -16,6 +16,7 @@
 
     <!-- Theme CSS -->
     <link href="css/freelancer.css" rel="stylesheet">
+<!--    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">   -->
     <link href="css/fotorama.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
@@ -56,14 +57,27 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Portfolio
-                                <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="#about">About Us</a></li>
-                                <li><a href="contact.html">Contact Us</a></li>
-                            </ul>
+                        <li class="">
+<!--                            <a class="dropdown-toggle" href="#" id="change">Portfolio-->
+                                
+                         
+                                <li class="hidden">
+                                    <a class="page-scroll" href="#page-top">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll" href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll" href="#about">About Us</a>
+                                </li>
+                                <li>
+                                    <a class="page-scroll active" href="#portfolio">Portfolio</a>
+                                </li>
+                                
+                                <li>
+                                    <a class="page-scroll" href="contact.html">Contact Us</a>
+                                </li>
+                            
                         </li>
                         
                     </ul>
@@ -81,9 +95,9 @@
     <div class="container" style="margin-bottom:10px;"></div>
 
     <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container" style="width:100%">
-            <div class="fotorama col-md-12" data-autoplay="true" data-arrows="true" data-fit="contain" data-width="100%" data-height="70%"  data-allowfullscreen="true" >
+    <section id="portfolio" >
+        <div class="container ">
+            <div class="fotorama " data-autoplay="true" data-arrows="always" data-fit="contain" data-width="100%" data-height="70%" data-autoplay="7000" >
 
                 <img src="assets/images/gallery/marriage/img00.jpg">
                 <img src="assets/images/gallery/marriage/img01.jpg">
@@ -127,41 +141,36 @@
                     <div class="col-md-2 col-md-offset-1">
                         <div class="thumbnail">
                             <a href="fashion.html" >
-                                <img src="assets/images/gallery/fashion/img24.jpg"  style="width:100%">
+                                <img src="assets/cover/fashion.jpg"  style="width:100%">
 
                             </a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="thumbnail" style="border-style: solid;border-width: 5px;border-color:#FFB300;">
-                            <a href="wedding.html" >
-                                <img src="assets/images/gallery/marriage/img08.jpg"  style="width:100%">
-
+                            <a href="#" >
+                                <img src="assets/cover/marriage.jpg"  style="width:100%">
                             </a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="thumbnail">
-                            <a href="marriage.html" >
-                                <img src="assets/images/gallery/wedding/img11.jpg"  style="width:100%">
-
+                            <a href="prewed.html" >
+                                <img src="assets/cover/prewed.jpg"  style="width:100%">
                             </a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="thumbnail" >
-                            <a href="#" >
-                                <img src="assets/images/gallery/commercial/img11.jpg"  style="width:100%">
-
+                            <a href="commerce.html" >
+                                <img src="assets/cover/commerce.jpg"  style="width:100%">
                             </a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="thumbnail">
                             <a href="food.html" >
-                                <img src="assets/images/gallery/food/img07.jpg"  style="width:100%">
-
-                            </a>
+                                <img src="assets/cover/food.jpg"  style="width:100%;" height="70%">
                         </div>
                     </div>
                 </div>
@@ -173,7 +182,7 @@
 
         
         
-        <div class="container about" >
+        <div class="container about" id="about" >
 
             <div class="row" >
                 <div class="col-md-4" >
@@ -212,15 +221,18 @@
 
 
                     <p> At The Photo Tree, we strive to engage clients on a deeper level and develop a sense of trust early on. We learn what style, interest, character our clients have so that we can capture every second naturally behind the camera. It is so much more than just taking pictures.
-
                     </p> 
+                    <p>
+                        We only use high end latest equipments to ensure that you have the best quality pictures.
+
+                        We are available on call and email 24x7 for all your queries.</p>
                 </div>
             </div>
         </div>
 
         <div class="container">
             <div class="row">
-                <div class="text-center quote">
+                <div class="text-center quote center-block" style="width:85%" >
                     <img src="https://cdn0.iconfinder.com/data/icons/PRACTIKA/256/user.png"><br> 
                     <p>"When I hold my camera to my face and look through the glass to see my subject gazing back at me, the world around me goes silent, and from the moment I start my set of images, to the moment I've finished editing them, I feel free. I've created something. I've grown as an artist. And that is my accomplishment"</p>           
                 </div>
@@ -267,8 +279,8 @@
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
     
-    <script src="js/fotorama.js"></script>
-
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script> <!-- 16 KB -->
+        
 </body>
 
 </html>
