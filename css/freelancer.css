@@ -111,6 +111,7 @@ header .intro-text .skills {
 }
 .navbar-custom .navbar-brand {
   color: #4c4c4c;
+    padding-top: 22px;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
@@ -531,6 +532,7 @@ carousel quote*/
     padding-top: 100px;
     font-family: cursive;
     font-size: 1.3em;
+    color: #4c4c4c;
 }
 
 /* lakshay */

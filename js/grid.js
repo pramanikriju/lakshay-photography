@@ -2,7 +2,7 @@
 
     // cache vars
     var cards = document.querySelectorAll(".card.effect__random");
-    var timeMin = 3;
+    var timeMin = 1;
     var timeMax = 6;
     var timeouts = [];
 
