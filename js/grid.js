@@ -2,8 +2,8 @@
 
     // cache vars
     var cards = document.querySelectorAll(".card.effect__random");
-    var timeMin = 1;
-    var timeMax = 6;
+    var timeMin = 6;
+    var timeMax = 8;
     var timeouts = [];
 
     // loop through cards
