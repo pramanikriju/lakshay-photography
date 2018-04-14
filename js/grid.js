@@ -422,3 +422,21 @@
     }
 
 }( jQuery, window ))
+
+
+if ($('#back-to-top').length) {
+    var scrollTrigger = 00, // px
+        backToTop = function () {
+            var scrollTop = $(window).scrollTop();
+
+            $('#back-to-top').addClass('show');
+
+
+        };
+    backToTop();
+    $(window).on('scroll', function () {
+        backToTop();
+    });
+
+}
+

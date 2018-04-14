@@ -16,3 +16,28 @@ body {
     -o-background-size: cover;
 }
 
+#back-to-top {
+    position:fixed;
+    float:inherit;
+    bottom: 0px;
+    right: 0px;
+    z-index: 9999;
+    width: 15%;
+    height: 90%;
+    text-align: center;
+    line-height: 00px;
+    background: transparent;
+    color: #444;
+    cursor: pointer;
+    padding-right: 0px;
+    padding-left: 10px;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 000px;
+}

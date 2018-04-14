@@ -255,6 +255,7 @@ section.success {
   border-radius: 0;
   font-size: 1.5em;
   background: none;
+  -webkit-box-shadow: none !important;
   box-shadow: none !important;
   resize: none;
 }
@@ -432,6 +433,7 @@ fieldset[disabled] .btn-success.active {
 .portfolio-modal .modal-content {
   border-radius: 0;
   background-clip: border-box;
+  -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
   min-height: 100%;
@@ -546,12 +548,18 @@ carousel quote*/
     background-color: #4c4c4c;
     color: whitesmoke;
 }
+
+@font-face {
+    font-family: 'calling_angels_personal_useRg';
+    src: url('callingangels-webfont.eot');
+    src: url('callingangels-webfont.eot?#iefix') format('embedded-opentype'),
+        url('callingangels-webfont.woff') format('woff'),
+        url('callingangels-webfont.svg#calling_angels_personal_useRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 .fonto{
-        font-family: 'Conv_TypoGraphica';
-        src: url('fonts/TypoGraphica.eot');
-        src: local('☺'), url('fonts/TypoGraphica.woff') format('woff'), url('fonts/TypoGraphica.ttf') format('truetype'), url('fonts/TypoGraphica.svg') format('svg'); 
-        font-weight: normal;
-        font-style: normal;
-    }
+   font-family: 'Josefin Sans', sans-serif;
 
 }
